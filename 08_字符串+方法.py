@@ -39,7 +39,7 @@ temp_list = list(s)
 temp_list.pop(temp_list.index('g'))  # 删除这个元素
 print(temp_list)
 print(str(temp_list))   # 这种方法转不成功
-print(''.join(temp_list))
+print(''.join(temp_list))   # 这种方法可以转成功
 
 s.strip('g')     # 只能移除头尾，必须最后边
 print(s)
